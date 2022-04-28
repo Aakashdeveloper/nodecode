@@ -69,3 +69,42 @@ V8 engine (processor)
 ////////////
 NPM
 >> Node Package Manager
+
+///json
+> JavaScript Object Notation
+[
+    {
+        "name":"Amit",
+        "city":"Delhi"
+    },
+    {
+        "name":"Nikita",
+        "city":"Mumbai",
+        "age":10
+    }
+]
+
+///////Package.json/////////
+> Entry Point to the app
+> Details of the app (meta data)
+> Contains packages we are using
+> Contains Script to start,test
+
+/////
+Step To generate package.json
+///////
+**NodeJs must be install in our laptop
+> Go Inside the folder using cmd/terminal
+> type 'npm init'
+> answer all questions
+
+
+local
+dev
+global
+/////
+Step To install packages
+///////
+**NodeJs must be install in our laptop
+> Go Inside the folder using cmd/terminal
+> npm i packagename
