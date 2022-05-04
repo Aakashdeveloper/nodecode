@@ -18,6 +18,7 @@ Vs Code extensions
 
 NPM
 Basic NodeJS(in built)(Os,file,http)
+/////////////////
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
 Third Party Api (Weather Api)
 Redis  > 6379
@@ -99,9 +100,9 @@ Step To generate package.json
 > answer all questions
 
 
-local
-dev
-global
+local > used in particular folder
+dev > use only for development purpose
+global > need before app start
 /////
 Step To install packages
 ///////
@@ -125,18 +126,14 @@ add(1,2)
 3
 
 
-He is into react not into angular but very good in terms of designing 
-look like he has very good understanding of html,css
-React and JavaScript he is ok but good to go ahead
-HTML
-> He is very good in html and has proper hands-on experience with html and aware of all the tag whatever i have asked 
-CSS
-> he is very good in css and has proper hands-on experience with css
-JavaScript
-> Little less in javascript as compared to the Css and html but still have a good understanding of Javascript and its concept
-Bootstrap
-> He is quite confident with bootstrap as well looks like an expert in terms of designing
-J2EE
-> He is only working on frontend not the backend he is aware of nodejs
-Angular
-> He is not working on angular he is very good in terms of react  and actually very good with html css as well
+////// Step to install global package//////
+#window
+> open the cmd as adminstrator
+> npm i -g packagename
+
+#mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+>>>nodemon
+(automatically restart the server whenever detect any changes)
